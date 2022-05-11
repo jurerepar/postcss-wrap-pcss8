@@ -1,7 +1,7 @@
 {
-  "name": "postcss-wrap",
-  "version": "0.0.4",
-  "description": "PostCSS plugin to wrap css rules in a namespace e.g .my-selector {} to .wrap .my-selector {}",
+  "name": "postcss-wrap-pcss8",
+  "version": "0.1.0",
+  "description": "PostCSS8 plugin to wrap css rules in a namespace e.g .my-selector {} to .wrap .my-selector {}",
   "keywords": [
     "postcss",
     "css",
@@ -9,20 +9,20 @@
     "wrap",
     "selector"
   ],
-  "author": "Ruslan Savenok <ruslan.savenok@gmail.com>",
+  "author": "Jurij Repar <jure.repar@gmail.com>",
   "license": "MIT",
-  "repository": "ruslansavenok/postcss-wrap",
+  "repository": "https://github.com/jurerepar/postcss-wrap-pcss8",
   "bugs": {
     "url": "https://github.com/ruslansavenok/postcss-wrap/issues"
   },
   "homepage": "https://github.com/ruslansavenok/postcss-wrap",
-  "dependencies": {
-    "colors": "^1.1.2",
-    "postcss": "^5.0.13"
-  },
   "devDependencies": {
     "ava": "^0.9.1",
-    "eslint": "^1.10.3"
+    "eslint": "^1.10.3",
+    "postcss": "^8.0.0"
+  },
+  "peerDependencies": {
+    "postcss": "^8.0.0"
   },
   "scripts": {
     "test": "ava && eslint *.js"
